@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200619145922_v0.0.0.cs" />
+    <Compile Remove="Migrations\20200619145922_v0.0.0.Designer.cs" />
+    <Compile Remove="Migrations\20200619150137_v0.0.1.cs" />
+    <Compile Remove="Migrations\20200619150137_v0.0.1.Designer.cs" />
+    <Compile Remove="Migrations\20200619151017_v0.0.1.cs" />
+    <Compile Remove="Migrations\20200619151017_v0.0.1.Designer.cs" />
+    <Compile Remove="Migrations\20200619151340_v0.0.1.cs" />
+    <Compile Remove="Migrations\20200619151340_v0.0.1.Designer.cs" />
+    <Compile Remove="Migrations\20200619151920_v0.0.1.cs" />
+    <Compile Remove="Migrations\20200619151920_v0.0.1.Designer.cs" />
+    <Compile Remove="Migrations\20200619153547_v0.0.1.cs" />
+    <Compile Remove="Migrations\20200619153547_v0.0.1.Designer.cs" />
+    <Compile Remove="Migrations\20200619153601_v0.0.2.cs" />
+    <Compile Remove="Migrations\20200619153601_v0.0.2.Designer.cs" />
+    <Compile Remove="Migrations\20200619153844_v0.0.2.cs" />
+    <Compile Remove="Migrations\20200619153844_v0.0.2.Designer.cs" />
+    <Compile Remove="Migrations\20200619154528_v0.0.3.cs" />
+    <Compile Remove="Migrations\20200619154528_v0.0.3.Designer.cs" />
+    <Compile Remove="Migrations\20200619154911_v0.0.4.cs" />
+    <Compile Remove="Migrations\20200619154911_v0.0.4.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CROSSWORKERS.CHEMICLEAN.Domain\CROSSWORKERS.CHEMICLEAN.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
